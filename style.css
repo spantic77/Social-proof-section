@@ -1,0 +1,138 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.top-box {
+    width: 77.09%;
+    margin: 130px 165px 80px 165px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top-left-box { width: 40.54%; }
+
+.top-left-box h1 {
+    font-size: 41px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+}
+
+.top-left-box p {
+    line-height: 150%;
+    color: hsl(303, 10%, 53%);
+}
+
+.top-right-box {
+    width: 48.65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ratings {
+    width: 440px;
+    height: 55px;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    color: hsl(300, 43%, 22%);
+}
+
+.ratings p {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.r-two { margin-left: 50px; }
+
+.r-three { margin-left: 100px; }
+
+.stars {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.lower-box {
+    width: 77.09%;
+    height: 265px;
+    margin: 0 165px 100px 165px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.testimonials {
+    background-color: hsl(300, 43%, 22%);
+    width: 350px;
+    height: 235px;
+    border-radius: 10px;
+}
+
+.pic-name {
+    width: 100%;
+    margin: 40px 0 25px 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.pic-name img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.pic-name p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.b-name { color: #fff; }
+
+.b-copy { color: hsl(303, 10%, 53%); }
+
+.long-copy {
+    color: #fff;
+    width: 81.43%;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 50;
+    line-height: 150%;
+}
+
+.t-one { margin-right: 25px; }
+
+.t-one .long-copy { margin-bottom: 40px; }
+
+.t-two {
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+.t-two .long-copy { margin-bottom: 40px; }
+
+.t-three { margin-top: 30px; }
+
+.t-three .long-copy { margin-bottom: 40px; }
